@@ -58,8 +58,10 @@
     */
 
     background-image: url("fundoBoasVindas.png");
-    background-size:cover;
     background-repeat: no-repeat;
+    background-size:cover;
+    
+    position: relative;
     padding-top: 110px;
     height: 100vh;
     margin-right: -12px;
@@ -125,12 +127,19 @@
     margin-top: 10px;
     margin-right: 0px;
     margin-left: 0px;
+
+    display: flex;
+
+align-items: center;
+
+justify-content: center;
 }
 
 .conteudo-procedimentos-cards{
     margin-left: 10px;
     margin-bottom: 10px;
     padding-top: 10px;
+    height: 580px;
 }
 
 .conteudo-depoimentos{
