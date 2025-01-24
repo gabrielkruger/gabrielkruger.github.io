@@ -7,13 +7,19 @@
  
 
 .btn-outline-primary{
-    color: #e29ab0;
-    border-color: #e29ab0;
+    color: #f8f3f5;
+    border-color: #e6225c;
+    background-color: #e6225c;
 }
 
 
 .btn-outline-primary:hover{
     background-color: #e29ab0;
+    border-color: #e29ab0;
+}
+
+.btn-outline-primary:active{
+    background-color: #57f36c;
 }
 
 
@@ -72,13 +78,15 @@
 }
 
 .conteudo-inicio-destaque{
-    background-color: rgba(0, 0, 0, 0.534);
+    /*background-color: rgba(0, 0, 0, 0.534);*/
+    background-image: linear-gradient(#2e1f232c, #f8f2f407);
+
     color: beige;
     width: 100vw;
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 150px;
+    padding-bottom: 150px;
     text-align: center;
     font-family: "Reenie Beanie", serif;
 }
