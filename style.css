@@ -35,6 +35,7 @@
 
 .cabecalho-menu{
    background-color: #D67290;
+   margin-left: -12px;
 }
 
 .cabecalho-menu-logoInstragram{
@@ -79,7 +80,7 @@
 
 .conteudo-inicio-destaque{
     /*background-color: rgba(0, 0, 0, 0.534);*/
-    background-image: linear-gradient(#2e1f232c, #f8f2f407);
+    background-image: linear-gradient(#2e1f234d, #f8f2f407);
 
     color: beige;
     width: 100vw;
