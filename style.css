@@ -172,6 +172,30 @@
     background-color: #f07398;
 }
 
+.agendarAvaliacaoPosProcedimentos{
+    
+    margin-top:50px;
+    margin-bottom:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: -12px;
+    margin-left: -12px;
+    
+    
+}
+
+.agendarAvaliacaoPosProcedimentos-botao{
+    
+    width: 400px;
+    height: 50px;
+    background-color: #fc2945;
+    border-color: #fc2945;
+    
+}
+
+
 .conteudo-depoimentos{
     /*
     scroll-snap-align: start;
@@ -192,6 +216,7 @@
 
 .conteudo-depoimentos-imagem{
     margin-top: 10px;
+    justify-content: center;
 }
 
 .conteudo-planosAnuais{
@@ -211,6 +236,30 @@
     border-radius: 5px;
     color: #ca5e7f;
     padding-top: 10px;
+}
+
+.agendarAvaliacaoPosPlanosAnuais{
+    
+    margin-top:50px;
+    margin-bottom:50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: -12px;
+    margin-left: -12px;
+    
+    
+}
+
+.agendarAvaliacaoPosPlanosAnuais-botao{
+    
+    width: 400px;
+    height: 50px;
+    background-color: #29dcfc;
+    border-color: #29dcfc;
+    color: black;
+    
 }
 
 .conteudo-planosAnuais-card{
