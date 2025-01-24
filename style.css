@@ -212,15 +212,15 @@ justify-content: center;
 
 
 @media (max-width: 575px){ /*container - tamanho da tela menor que 540px*/ 
-    .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasSM.png);}
+    .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindas.png);}
 }
 
 @media (min-width:576px) and (max-width:767px){ /*container sm - tamanho da tela 540px*/ 
-    .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasMD.png);}
+    .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasSM.png);}
 }
 
 @media (min-width:768px) and (max-width:991px){ /*container md - tamanho da tela 720px*/ 
-    .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasLG.png);}
+    .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasMD.png);}
 }
 
 @media (min-width:992px) and (max-width:1199px){ /*container lg - tamanho da tela 960px*/ 
@@ -228,7 +228,7 @@ justify-content: center;
 }
 
 @media (min-width:1200px) and (max-width:1399px){ /*container xl - tamanho da tela 1140px*/ 
-    .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasXXL.png);}
+    .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasXL.png);}
 }
 
 @media (min-width: 1400px){ /*container xxl - tamanho da tela 1320px*/ 
