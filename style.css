@@ -43,14 +43,20 @@
 
 .cabecalho-menu-logoInstragram{
     margin-right: 15px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    color: #dd2a7b67;
+    font-size: 20px;
 }
 
 .cabecalho-menu-logoWhatsApp{
     margin-right: 10px;
-    margin-top: 7px;
-    margin-bottom: 7px;
+    color: #25d3655b;
+    font-size: 20px;
+}
+
+.cabecalho-menu-logoFacebook{
+    margin-right: 10px;
+    color: #3b58985b;
+    font-size: 20px;
 }
 
 .cabecalho-menu-botao{
@@ -187,7 +193,6 @@
 }
 
 .agendarAvaliacaoPosProcedimentos-botao{
-    
     width: 400px;
     height: 50px;
     background-color: #fc2945;
@@ -283,17 +288,8 @@
 }
 
 .conteudo-contato{
-    /*
-    scroll-snap-align: start;
-    position: sticky;
-    top: 0;
-    left: 0;
-    */
-    
-    background-color: #d1bfc5;
-    height: 100vh;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    background-color: #ca5e7f;
+    border-radius: 5px;
 }
 
 
@@ -301,6 +297,23 @@
 .rodape{
     background-color: #D67290;
     color: #ffffff;
+}
+
+.rodape-instagram{
+    color: #dd2a7b9c;
+    text-align: center;
+}
+
+.rodape-whatsapp{
+    color: #25d365a2;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.rodape-facebook{
+    color: #3b589898;
+    margin-top: 10px;
+    text-align: center;
 }
 
 
@@ -314,10 +327,17 @@
     }
     .cabecalho-menu-logoInstragram-hamburger{
         margin-top: 10px;
+        margin-left: 10px;
         text-align: center;
         height: 35px;
     }
     .cabecalho-menu-logoWhatsApp-hamburger{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+        height: 35px;
+    }
+    .cabecalho-menu-logoFacebook-hamburger{
         margin-top: 10px;
         margin-bottom: 15px;
         text-align: center;
@@ -335,10 +355,17 @@
     }
     .cabecalho-menu-logoInstragram-hamburger{
         margin-top: 10px;
+        margin-left: 10px;
         text-align: center;
         height: 35px;
     }
     .cabecalho-menu-logoWhatsApp-hamburger{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+        height: 35px;
+    }
+    .cabecalho-menu-logoFacebook-hamburger{
         margin-top: 10px;
         margin-bottom: 15px;
         text-align: center;
@@ -356,6 +383,7 @@
     }
     .cabecalho-menu-logoInstragram-hamburger{
         margin-top: 10px;
+        margin-left: 10px;
         text-align: center;
         height: 35px;
     }
@@ -365,16 +393,31 @@
         text-align: center;
         height: 35px;
     }
+    .cabecalho-menu-logoFacebook-hamburger{
+        margin-top: 10px;
+        margin-bottom: 15px;
+        text-align: center;
+        height: 35px;
+    }
 }
 
 @media (min-width:992px) and (max-width:1199px){ /*container lg - tamanho da tela 960px*/ 
     .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasLG.png);}
+    .cabecalho-menu{
+        height: 50px;
+    }
 }
 
 @media (min-width:1200px) and (max-width:1399px){ /*container xl - tamanho da tela 1140px*/ 
     .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasXL.png);}
+    .cabecalho-menu{
+        height: 50px;
+    }
 }
 
 @media (min-width: 1400px){ /*container xxl - tamanho da tela 1320px*/ 
     .conteudo-inicio{background-image: url(imagens/Inicio/fundoBoasVindasXXL.png);}
+    .cabecalho-menu{
+        height: 50px;
+    }
 }
