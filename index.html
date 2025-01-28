@@ -12,6 +12,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Reenie+Beanie&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Reenie+Beanie&display=swap" rel="stylesheet">
+    
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   </head>
 
@@ -72,7 +81,7 @@
       
       <section class="conteudo-inicio" id="inicio">
         <div class="conteudo-inicio-destaque">
-          <h1>Se reconecte ao se olhar no espelho</h1>
+          <h1 class="conteudo-inicio-frase">Se reconecte ao se olhar no espelho</h1>
           <br>
           
           <button type="button" class="btn btn-outline-primary conteudo-inicio-destaque-botao">Agende a sua avaliação</button> 
@@ -101,7 +110,7 @@
         </div>
 
         <div class="card col-2 conteudo-procedimentos-cards position-static" style="width: 18rem;">
-          <img src="procedimentoBotox.jpg" class="card-img-top" alt="...">
+          <img src="procedimentoBotox.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Botox Estético</h5>
             <p class="card-text">O botox estético é a solução para as rugas na pele. Suas doses controladas e fracionadas vão ajudar a paralisar a musculatura, reduzindo, assim, as rugas e linhas de expressão momentaneamente. O procedimento começa a fazer efeito em até 14 dias após a aplicação e pode durar por cerca de três a, no máximo, seis meses.</p>
@@ -110,7 +119,7 @@
         </div>
 
         <div class="card col-2 conteudo-procedimentos-cards position-static" style="width: 18rem;">
-          <img src="procedimentoLimpezaDePele.jpg" class="card-img-top" alt="...">
+          <img src="procedimentoLimpezaDePele.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Limpeza de pele</h5>
             <p class="card-text">A limpeza de pele consiste em uma sequência de procedimentos para remover as impurezas e as células mortas, além de melhorar a hidratação e a nutrição da derme. É indicada antes de qualquer tratamento para rejuvenescimento, pois auxilia na absorção de ativos contidos nos dermocosméticos.</p>
@@ -119,7 +128,7 @@
         </div>
 
         <div class="card col-2 conteudo-procedimentos-cards position-static" style="width: 18rem;">
-          <img src="procedimentoPreenchimentoLabial.jpg" class="card-img-top" alt="...">
+          <img src="procedimentoPreenchimentoLabial.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Preenchimento Labial</h5>
             <p class="card-text">O preenchimento labial é um procedimento estético que tem como objetivo aumentar o volume e/ou melhorar a aparência dos lábios. Ele é feito com a injeção de substâncias na região labial.</p>
@@ -128,7 +137,7 @@
         </div>
 
         <div class="card col-2 conteudo-procedimentos-cards position-static" style="width: 18rem;">
-          <img src="procedimentoRinomodelacao.jpg" class="card-img-top" alt="...">
+          <img src="procedimentoRinomodelacao.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Rinomodelação</h5>
             <p class="card-text">A rinomodelação é feita com o preenchimento do nariz por implantes líquidos que moldam o formato do nariz sem cirurgia permitindo o retorno a rotina no mesmo dia. O paciente permanece acordado durante todo o procedimento, que é realizado com anestesia local sem sedação.</p>
@@ -137,7 +146,7 @@
         </div>
 
         <div class="card col-2 conteudo-procedimentos-cards position-static" style="width: 18rem;">
-          <img src="procedimentoPreenchimentoBigodeChines.jpeg" class="card-img-top" alt="...">
+          <img src="procedimentoPreenchimentoBigodeChines.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Preenchimento de bigode chinês</h5>
             <p class="card-text">O preenchimento de bigode chinês é um tratamento estético que visa suavizar uma das marcas de expressão consideradas mais incômodas do processo de envelhecimento: o sulco nasogeniano ou nasolabial.</p>
@@ -146,7 +155,7 @@
         </div>
 
         <div class="card col-2 conteudo-procedimentos-cards position-static" style="width: 18rem;">
-          <img src="procedimentoCodigoDeBarras.jpg" class="card-img-top" alt="...">
+          <img src="procedimentoCodigoDeBarras.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Codigo de Barras</h5>
             <p class="card-text">O preenchimento de código de barras é um procedimento que...</p>
@@ -208,9 +217,26 @@
 
       <section class="conteudo-duvidasFrequentes" id="duvidasFrequentes">
         <h1>Duvidas Frequentes</h1>
-        <br>
-        <p>Open the page in your browser of choice to see your Bootstrapped page. Now you can start building with Bootstrap by creating your own layout, adding dozens of components, and utilizing our official examples.</p>
-        <p>Open the page in your browser of choice to see your Bootstrapped page. Now you can start building with Bootstrap by creating your own layout, adding dozens of components, and utilizing our official examples.</p>  
+
+       <!-- 
+        <video class="conteudo-duvidasFrequentes-video" src="duvidasFrequentes.MP4"></video> 
+        -->
+
+
+        <details class="conteudo-duvidasFrequentes-corpoDaPergunta">
+          <summary class="conteudo-duvidasFrequentes-pergunta">O que farei quando o site estiver pronto?</summary>
+          <p class="conteudo-duvidasFrequentes-resposta">Eu vou fazer uma comidinha bem gostosa para o Gabriel.</p>
+        </details>
+
+        <details class="conteudo-duvidasFrequentes-corpoDaPergunta">
+          <summary class="conteudo-duvidasFrequentes-pergunta">Qual a fórmula de baskara??</summary>
+          <p class="conteudo-duvidasFrequentes-resposta">Não sei, estou de férias.</p>
+        </details>
+
+        <details class="conteudo-duvidasFrequentes-corpoDaPergunta">
+          <summary class="conteudo-duvidasFrequentes-pergunta">Quais são os numeros da mega sena?</summary>
+          <p class="conteudo-duvidasFrequentes-resposta">São 40 21 64 93 18 70, segundo as vozes da minha cabeça.</p>
+        </details>
       </section>
 
       <!-- 

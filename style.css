@@ -27,18 +27,21 @@
 
 .corpo{
     background-color: #D67290;
+    font-family: "Montserrat", serif;
+    font-style: normal;
 }
 
 
 
 .cabecalho{
-    background-color: #D67290;
+    background-color: #d67290af;
 }
 
 .cabecalho-menu{
-    background-color: #D67290;
+    background-color: #d67290af;
     margin-left: -12px;
     /* font-family: "Reenie Beanie", serif; */
+    font-size: 14px;
 }
 
 .cabecalho-menu-logoInstragram{
@@ -92,8 +95,8 @@
 }
 
 .conteudo-inicio-destaque{
-    /*background-color: rgba(0, 0, 0, 0.534);*/
-    background-image: linear-gradient(#2e1f234d, #f8f2f407);
+    /*background-color: rgba(0, 0, 0, 0.534);
+    background-image: linear-gradient(#2e1f234d, #f8f2f407); */
 
     color: beige;
     width: 100vw;
@@ -102,7 +105,11 @@
     padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
-    font-family: "Reenie Beanie", serif;
+    font-family: "Dancing Script", serif;
+}
+
+.conteudo-inicio-frase{
+    text-shadow: black 0.1em 0.1em 0.1em;
 }
 
 .conteudo-inicio-destaque-botao{
@@ -281,10 +288,34 @@
     background-color: #e29eb3;
     height: 100vh;
     margin-top: 10px;
-    color: #cf5177;
+    color: #fff1f5;
     padding-top: 10px;
     padding-left: 10px;
+    padding-right: 10px;
     border-radius: 5px;
+}
+
+.conteudo-duvidasFrequentes-video{
+    
+}
+
+.conteudo-duvidasFrequentes-corpoDaPergunta{
+    margin-top: 10px;
+    color: white;
+}
+
+.conteudo-duvidasFrequentes-pergunta{
+    background-color: rgb(230, 121, 139);
+    border-radius: 6px;
+
+}
+
+.conteudo-duvidasFrequentes-resposta{
+    background-color: rgb(243, 143, 159);
+    border-radius: 6px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
 .conteudo-contato{
