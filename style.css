@@ -118,6 +118,11 @@ h1{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.conteudo-inicio-destaque-botao-link{
+    text-decoration: none;
+    color: white;
+}
+
 .conteudo-quemSouEu{
     /*
     scroll-snap-align: start;
@@ -192,11 +197,16 @@ h1{
     align-items: center;
     margin-right: -12px;
     margin-left: -12px;
-    
-    
+    text-decoration: none;
+}
+
+.agendarAvaliacaoPosProcedimentos-link{
+    text-decoration: none;
+    color: white;
 }
 
 .agendarAvaliacaoPosProcedimentos-botao{
+    text-decoration: none;
     width: 400px;
     height: 50px;
     background-color: #fc2945;
@@ -262,6 +272,11 @@ h1{
     border-color: #e294f5;
     color: rgb(255, 248, 248);
     
+}
+
+.agendarAvaliacaoPosPlanosAnuais-link{
+    text-decoration: none;
+    color: white;
 }
 
 .conteudo-duvidasFrequentes{
