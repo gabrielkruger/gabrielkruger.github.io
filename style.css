@@ -5,7 +5,9 @@
     text-decoration: none;
 }
 
-
+h1{
+    font-family: "Dancing Script", serif;
+}
 
 .btn-outline-primary{
     color: #f8f3f5;
@@ -131,6 +133,7 @@
     padding-right: 10px;
     padding-bottom: 30px;
     border-radius: 5px;
+    font-family: "Montserrat", serif;
 }
 
 .conteudo-quemSouEu-imagem{
@@ -151,13 +154,6 @@
 }
 
 .conteudo-procedimentos{
-    /*
-    scroll-snap-align: start;
-    position: sticky;
-    top: 0;
-    left: 0;
-    */
-
     background-image: linear-gradient(#f1d4dd, #e29eb3);
     color: #ca5e7f;
     border-radius: 5px;
@@ -166,13 +162,14 @@
     margin-right: 0px;
     margin-left: 0px;
 
-    justify-content: center;
+    
 }
 
 .conteudo-procedimentos-cards{
     margin-left: 10px;
     margin-bottom: 10px;
     padding-top: 10px;
+    font-family: "Montserrat", serif;
 }
 
 .conteudo-procedimentos-botao{
@@ -209,36 +206,21 @@
 
 
 .conteudo-depoimentos{
-    /*
-    scroll-snap-align: start;
-    position: sticky;
-    top: 0;
-    left: 0;
-    */
-    
     background-image: linear-gradient(#e28da8, #f1d4dd);
     background-color: #e29eb3;
     margin-top: 10px;
     margin-right: 0px;
     margin-left: 0px;
-    color: rgb(156, 30, 25);
+    color: rgb(255, 255, 255);
     padding: 20px;
     border-radius: 5px;
 }
 
 .conteudo-depoimentos-imagem{
-    margin-top: 10px;
-    justify-content: center;
+    padding-top: 10px;
 }
 
 .conteudo-planosAnuais{
-    /*
-    scroll-snap-align: start;
-    position: sticky;
-    top: 0;
-    left: 0;
-    */
-    
     background-image: linear-gradient(#f1d4dd, #e29eb3);
     background-color: #e29eb3;
     margin-top: 10px;
@@ -248,6 +230,16 @@
     border-radius: 5px;
     color: #ca5e7f;
     padding-top: 10px;
+}
+
+.conteudo-planosAnuais-card{
+    padding-top: 10px;
+    font-family: "Montserrat", serif;
+}
+
+.conteudo-planosAnuais-link{
+    text-decoration: none;
+    color: black;
 }
 
 .agendarAvaliacaoPosPlanosAnuais{
@@ -260,8 +252,6 @@
     align-items: center;
     margin-right: -12px;
     margin-left: -12px;
-    
-    
 }
 
 .agendarAvaliacaoPosPlanosAnuais-botao{
@@ -274,16 +264,7 @@
     
 }
 
-.conteudo-planosAnuais-card{
-}
-
 .conteudo-duvidasFrequentes{
-    /*
-    scroll-snap-align: start;
-    position: sticky;
-    top: 0;
-    left: 0;
-    */
     background-image: linear-gradient(#e28da8, #f1d4dd);
     background-color: #e29eb3;
     height: 100vh;
@@ -293,6 +274,7 @@
     padding-left: 10px;
     padding-right: 10px;
     border-radius: 5px;
+    font-family: "Montserrat", serif;
 }
 
 .conteudo-duvidasFrequentes-video{
@@ -326,6 +308,7 @@
 
 
 .rodape{
+    font-family: "Montserrat", serif;
     background-color: #D67290;
     color: #ffffff;
 }
